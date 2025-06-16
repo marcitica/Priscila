@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4e9d0;
+    text-align: center;
+  }
+  h1{
+padding: 20px;
+  }
+h2{
+  font-size: 30px;
+    margin-top: 8px;
+    padding: 5px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #634c3d;
+  }
+
+h3{
+ margin-top: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #634c3d;
+
+}
+
+
+  p{
+    margin-left: 10px;
+  }
+
+
+
+  header {
+    background-color: #877162;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #a18a76;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #e7cfb8;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d5b595;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content li {
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  ul{
+    li{
+      font-style: oblique;
+     margin-left: 10px;
+     font-weight: 600;
+     color:  #634c3d
+    }
+  }
+
+  .contenedor-imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.imagen-con-texto {
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+
+  }
+
+img{
+  height: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+  }
+
+
+
+
+
+
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.imagen {
+    width: 700px; 
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.texto {
+  color: #f4e9d0;
+    max-width: 500px;
+    text-align: left;
+    background-color: #634c3d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h4{
+  color: #f4e9d0;
+   padding: 4px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+h5{
+ color:#634c3d;
+   padding: 4px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:xx-large
+}
